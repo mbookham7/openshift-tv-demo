@@ -1,6 +1,6 @@
 # Demo 2
 
-## Create Our Application in OpenShift
+##  Create Our Application in OpenShift
 
 Database Provider Account needs to be created prior.
 
@@ -20,7 +20,7 @@ https://github.com/mbookham7/pacman-cockroachdb
 ```
 Then click `create`. This will deploy the code from this Git repo. It will fail in the first instance as we have not yet configured our Cloud Database.
 
-## Create Our Cloud Database
+## Create Our Cloud Database
 
 7.  Click `+Add` on the left hand menu once again, in the centre of the page at the bottom click `Cloud Hosted Database`.
 
@@ -36,13 +36,13 @@ Then click `create`. This will deploy the code from this Git repo. It will fail 
 
 13. A box will appear click `Create`.
 
-## Play Pacman and gain a high score
+## Play Pacman and gain a high score
 
 14. In the Topology view hover over the node.js application once again. Click the icon in the right hand corner of the icon once the `open URL` label appears.
 
 15. A new tab will open with the Pacman game for you to play. Play the game and record a high score.
 
-## Retrieve the High Score from the CockroachDB Cloud Database
+## Retrieve the High Score from the CockroachDB Cloud Database
 
 16. Login to Cockroach Cloud UI.
 ```
